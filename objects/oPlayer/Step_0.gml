@@ -2,16 +2,20 @@ key_left = keyboard_check(ord("A"));//keyboard_check(vk_left);
 key_right = keyboard_check(ord("D"));// keyboard_check(vk_right);
 //key_jump = keyboard_check_pressed(vk_space);
 
-horizSpeed = (key_right - key_left) * walkSpeed;
+// Set Vertical and Horizontal speed
+if (flying) {
+	horizSpeed = (key_right - key_left) * flyingSpeed;
+} else {
+	horizSpeed = (key_right - key_left) * walkSpeed;
+}
 vertSpeed = vertSpeed + grav;
-
 
 // Horizontal collision
 if (place_meeting(x+horizSpeed, y, oWall)) {
 	while(!place_meeting(x+sign(horizSpeed), y, oWall)) {
-		x = x + sign(horizSpeed)
+		x = x + sign(horizSpeed);
 	}
-	horizSpeed = 0
+	horizSpeed = 0;
 }
 x = x + horizSpeed;
 if (horizSpeed > 0){
@@ -28,9 +32,11 @@ if (horizSpeed > 0){
 // Vertical collision
 if (place_meeting(x, y+vertSpeed, oWall)) {
 	while(!place_meeting(x, y+sign(vertSpeed), oWall)) {
-		y = y + sign(vertSpeed)
+		y = y + sign(vertSpeed);
 	}
-	vertSpeed = 0
+	vertSpeed = 0;
+	flying = false;
+
 }
 y = y + vertSpeed;
 
