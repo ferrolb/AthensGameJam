@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "2c3c20dd-8a33-4c9e-96eb-89c047e912c0",
+            "Value": {
+                "id": "e2924065-4f28-4b0a-8ec4-11c71b8e58fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sUpwards\/sUpwards.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39b12c97-b864-4cd6-a17c-93e7569e5bd0",
             "Value": {
                 "id": "9e5bacbd-3892-4555-ac22-42337d72ac48",
@@ -400,6 +419,25 @@
             }
         },
         {
+            "Key": "dfc13227-3d3b-4931-8b52-d4a9e9422a89",
+            "Value": {
+                "id": "ab0a7e75-546d-4dd8-8764-19b8c2f597a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sStanding\/sStanding.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e6740234-d688-434d-b084-c38dd3130419",
             "Value": {
                 "id": "51321ea2-dff5-429c-8983-bff6f395fe2e",
@@ -416,6 +454,25 @@
                 ],
                 "resourcePath": "views\/e6740234-d688-434d-b084-c38dd3130419.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e71529cb-6fa8-40cf-95f2-12d70ff4a1fe",
+            "Value": {
+                "id": "fc7ec5ef-a58b-4956-bb9d-3e71e05a84dc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sWalk\/sWalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
