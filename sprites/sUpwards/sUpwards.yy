@@ -16,6 +16,28 @@
     "edgeFiltering": false,
     "frames": [
         {
+            "id": "4e1268de-9fdf-46be-8dd0-25027d59585a",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "2c3c20dd-8a33-4c9e-96eb-89c047e912c0",
+            "compositeImage": {
+                "id": "5eab9f3f-b544-48d2-8e90-04dde9237742",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "4e1268de-9fdf-46be-8dd0-25027d59585a",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "75d03d92-077b-4ed8-9e17-9492258fc483",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "4e1268de-9fdf-46be-8dd0-25027d59585a",
+                    "LayerId": "a488b9bd-7eb3-4ffa-857f-2119c5b910b1"
+                }
+            ]
+        },
+        {
             "id": "e68d018b-1e8e-4aab-bc48-6cb5d5c06bf2",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
@@ -58,28 +80,6 @@
                     "LayerId": "a488b9bd-7eb3-4ffa-857f-2119c5b910b1"
                 }
             ]
-        },
-        {
-            "id": "4e1268de-9fdf-46be-8dd0-25027d59585a",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "2c3c20dd-8a33-4c9e-96eb-89c047e912c0",
-            "compositeImage": {
-                "id": "5eab9f3f-b544-48d2-8e90-04dde9237742",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "4e1268de-9fdf-46be-8dd0-25027d59585a",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "75d03d92-077b-4ed8-9e17-9492258fc483",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "4e1268de-9fdf-46be-8dd0-25027d59585a",
-                    "LayerId": "a488b9bd-7eb3-4ffa-857f-2119c5b910b1"
-                }
-            ]
         }
     ],
     "gridX": 0,
@@ -100,7 +100,7 @@
     ],
     "origin": 0,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 7,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
