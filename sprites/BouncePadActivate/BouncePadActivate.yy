@@ -9,7 +9,7 @@
     "bbox_bottom": 31,
     "bbox_left": 5,
     "bbox_right": 27,
-    "bbox_top": 8,
+    "bbox_top": 24,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -99,94 +99,6 @@
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "9ccdd463-0133-47e8-a173-6f22b069574e",
-                    "LayerId": "fc2fa617-6ab1-4faf-9c39-e55340b06efb"
-                }
-            ]
-        },
-        {
-            "id": "e5ac5393-f5b1-4515-a98c-e67adc57c832",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "af8b5029-1b6e-40bc-8f23-f124657e7f10",
-            "compositeImage": {
-                "id": "1890efa5-a835-47e6-80ee-7c5fd0a9ac4f",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "e5ac5393-f5b1-4515-a98c-e67adc57c832",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "fd5af192-8a0e-4287-997d-2db94b4d4279",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "e5ac5393-f5b1-4515-a98c-e67adc57c832",
-                    "LayerId": "fc2fa617-6ab1-4faf-9c39-e55340b06efb"
-                }
-            ]
-        },
-        {
-            "id": "11f939aa-81dd-43aa-b222-41729eea0d02",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "af8b5029-1b6e-40bc-8f23-f124657e7f10",
-            "compositeImage": {
-                "id": "4f3dc3a1-5a2a-4cd2-a83e-ebca7cf4821e",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "11f939aa-81dd-43aa-b222-41729eea0d02",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "210ac592-1d18-4ea2-8769-7c821bdd7020",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "11f939aa-81dd-43aa-b222-41729eea0d02",
-                    "LayerId": "fc2fa617-6ab1-4faf-9c39-e55340b06efb"
-                }
-            ]
-        },
-        {
-            "id": "58852f63-cb4d-48c3-89f6-e1b83259d3b9",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "af8b5029-1b6e-40bc-8f23-f124657e7f10",
-            "compositeImage": {
-                "id": "853d2b5c-a66a-4d72-a479-e59efaac464c",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "58852f63-cb4d-48c3-89f6-e1b83259d3b9",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "067c69c5-88fb-49de-96ae-c06d837de924",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "58852f63-cb4d-48c3-89f6-e1b83259d3b9",
-                    "LayerId": "fc2fa617-6ab1-4faf-9c39-e55340b06efb"
-                }
-            ]
-        },
-        {
-            "id": "54be5ced-782f-4515-8174-8fada9337400",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "af8b5029-1b6e-40bc-8f23-f124657e7f10",
-            "compositeImage": {
-                "id": "56f1440e-f94a-4de4-a128-983fa7e1d1c4",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "54be5ced-782f-4515-8174-8fada9337400",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "5eeac906-624c-4570-bdc6-69f5cb39df4e",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "54be5ced-782f-4515-8174-8fada9337400",
                     "LayerId": "fc2fa617-6ab1-4faf-9c39-e55340b06efb"
                 }
             ]

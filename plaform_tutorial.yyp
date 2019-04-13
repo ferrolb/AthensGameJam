@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "070b8233-ba1a-45d1-8433-135a594d10ee",
+            "Value": {
+                "id": "1dfc9ed3-a348-46c2-a1b5-487de79e71be",
+                "resourcePath": "rooms\\Room2\\Room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0fd5fcca-a156-4c32-bf19-742374f708a8",
             "Value": {
                 "id": "8f98eeeb-898f-4d8c-87bb-3089bb52bbc5",
@@ -124,6 +132,14 @@
                 "id": "64a9dc05-9e4c-4b41-95a6-962521bab51b",
                 "resourcePath": "objects\\oBouncePad\\oBouncePad.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e51d007-5bf6-4ff1-8615-13a43c286beb",
+            "Value": {
+                "id": "2764368d-12b1-430e-9339-66c8b405243d",
+                "resourcePath": "rooms\\Room3\\Room3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
