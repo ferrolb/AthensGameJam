@@ -14,7 +14,17 @@ if (place_meeting(x+horizSpeed, y, oWall)) {
 	horizSpeed = 0
 }
 x = x + horizSpeed;
-
+if (horizSpeed > 0){
+	sprite_index = sWalk
+	image_xscale = 1
+	} 
+	else if (horizSpeed < 0) {
+		sprite_index = sWalk
+		image_xscale = -1
+		}
+	else if (horizSpeed = 0) {
+		sprite_index = sStanding
+	}
 // Vertical collision
 if (place_meeting(x, y+vertSpeed, oWall)) {
 	while(!place_meeting(x, y+sign(vertSpeed), oWall)) {
@@ -24,6 +34,23 @@ if (place_meeting(x, y+vertSpeed, oWall)) {
 }
 y = y + vertSpeed;
 
+if (vertSpeed < 0) {
+	sprite_index = sUpwards
+	}
+	else if (vertSpeed > 0){
+	sprite_index = sStraightFall
+	if (horizSpeed != 0){
+		 if (horizSpeed < 0) {
+		image_xscale = -1
+		sprite_index = sSideFall
+		}
+	else if (horizSpeed > 0) {
+		image_xscale = 1
+		sprite_index = sSideFall
+	}
+	}
+	}
+	
 // Animation
 //if (!place_meeting(x, y+1, oWall)) {
 //	sprite_index = sStanding;
