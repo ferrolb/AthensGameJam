@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "63722f4d-63d4-4338-86dc-8d0efce5dd75",
+            "Value": {
+                "id": "64a9dc05-9e4c-4b41-95a6-962521bab51b",
+                "resourcePath": "objects\\oBouncePad\\oBouncePad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75d4471b-500d-4984-bee7-dd348d75630c",
             "Value": {
                 "id": "77d85d11-d9a3-479e-a0ba-cfab616c68eb",
