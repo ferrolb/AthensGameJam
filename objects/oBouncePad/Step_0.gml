@@ -7,7 +7,6 @@ if (place_meeting(x, y, oPlayer)) {
 		image = image + 1
 	    image_index = image
 	}
-	//oPlayer.grav = -0.5
 	oPlayer.vertSpeed = -5.0
 } else if (image > 9) {
 	sprite_index = BouncePad;
