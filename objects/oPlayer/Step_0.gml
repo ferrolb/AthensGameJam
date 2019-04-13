@@ -2,6 +2,11 @@ key_left = keyboard_check(ord("A"));//keyboard_check(vk_left);
 key_right = keyboard_check(ord("D"));// keyboard_check(vk_right);
 //key_jump = keyboard_check_pressed(vk_space);
 
+// check if we have finished the level
+if (x>=room_width) {
+	room_goto_next()
+}
+
 // Set Vertical and Horizontal speed =============================
 if (flying) {
 	horizSpeed = (key_right - key_left) * flyingSpeed;
