@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "119a5f78-5c9f-434b-b043-967bfed6e333",
+            "Value": {
+                "id": "3583074c-7d39-447b-bb6d-a640888dcd1b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite5\/sprite5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f9328cd-e3f8-4584-9a33-f2f2380b500b",
             "Value": {
                 "id": "b9dcbe44-763e-43f9-adf9-43ec718a1ae9",
@@ -302,6 +321,25 @@
                 ],
                 "resourcePath": "views\/97c6992d-efbe-4fad-b621-2dd704536191.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ca9b54b-142a-4a0d-b0fe-28f89135efc7",
+            "Value": {
+                "id": "9bb5da11-726d-4b65-a2bf-73c7118f422c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
