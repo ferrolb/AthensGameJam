@@ -32,6 +32,17 @@ if (place_meeting(x, y+vertSpeed, oWall)) {
 y = y + vertSpeed;
 
 // Animation =====================================================
+
+if (horizSpeed > 0) {
+	sprite_index = sWalk
+	image_xscale = 1
+} else if (horizSpeed < 0) {
+	sprite_index = sWalk
+	image_xscale = -1
+} else if (horizSpeed = 0) {
+	sprite_index = sStanding
+}
+
 if (vertSpeed < 0) {
 	sprite_index = sUpwards
 } else if (vertSpeed > 0) {
@@ -46,12 +57,4 @@ if (vertSpeed < 0) {
 	}
 }
 
-if (horizSpeed > 0) {
-	sprite_index = sWalk
-	image_xscale = 1
-} else if (horizSpeed < 0) {
-	sprite_index = sWalk
-	image_xscale = -1
-} else if (horizSpeed = 0) {
-	sprite_index = sStanding
-}
+
