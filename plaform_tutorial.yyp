@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "af8b5029-1b6e-40bc-8f23-f124657e7f10",
+            "Value": {
+                "id": "770a2f44-cf29-4d06-99bf-48ea739b1a42",
+                "resourcePath": "sprites\\BouncePadActivate\\BouncePadActivate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "beb4c2f0-b4e5-4022-8a75-c858caf53434",
             "Value": {
                 "id": "5078aebe-3b30-44ff-934e-e716148e9ed3",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "fc7ec5ef-a58b-4956-bb9d-3e71e05a84dc",
                 "resourcePath": "sprites\/sWalk\/sWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9cf6162-7315-4ee9-8d74-6444273751a3",
+            "Value": {
+                "id": "17b8f0b3-3829-4f54-8c1d-757561bb1997",
+                "resourcePath": "sprites\\BouncePad\\BouncePad.yy",
                 "resourceType": "GMSprite"
             }
         },
