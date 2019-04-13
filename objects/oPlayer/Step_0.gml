@@ -1,6 +1,6 @@
-key_left = keyboard_check(ord("A"));//keyboard_check(vk_left);  
-key_right = keyboard_check(ord("D"));// keyboard_check(vk_right);
-//key_jump = keyboard_check_pressed(vk_space);
+key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);  
+key_right = keyboard_check(ord("D")) ||  keyboard_check(vk_right);
+
 
 // check if we have finished the level
 if (x>=room_width) {
@@ -25,6 +25,14 @@ if (place_meeting(x+horizSpeed, y, oWall)) {
 x = x + horizSpeed;
 
 // Vertical collision ============================================
+if (jetpacks > 0) {
+	if (keyboard_check_pressed(vk_space)) {
+		flying = true;
+		vertSpeed = (-6 + vertSpeed*-3)
+		jetpacks = jetpacks - 1
+	}
+}
+
 if (place_meeting(x, y+vertSpeed, oWall)) {
 	while(!place_meeting(x, y+sign(vertSpeed), oWall)) {
 		y = y + sign(vertSpeed);
@@ -37,7 +45,6 @@ if (place_meeting(x, y+vertSpeed, oWall)) {
 y = y + vertSpeed;
 
 // Animation =====================================================
-
 if (horizSpeed > 0) {
 	sprite_index = sWalk
 	image_xscale = 1

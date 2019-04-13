@@ -1,18 +1,28 @@
 {
-    "id": "702cadc5-4761-4303-b19d-30019d641c6c",
+    "id": "7953ec2e-c24a-408c-ab82-2bd25421ec7e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oJetPack",
+    "name": "oGameOverText",
     "eventList": [
         {
-            "id": "0fd9d961-c313-4182-b92d-0a92805e8ec3",
+            "id": "5df26a8d-5707-41c0-abcf-ec04009a40ec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "cf3e3397-8346-4af8-bdb8-8a0299e6dac1",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "702cadc5-4761-4303-b19d-30019d641c6c"
+            "eventtype": 8,
+            "m_owner": "7953ec2e-c24a-408c-ab82-2bd25421ec7e"
+        },
+        {
+            "id": "07121d5e-1903-47b3-86b3-cc4b10d1019b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 82,
+            "eventtype": 9,
+            "m_owner": "7953ec2e-c24a-408c-ab82-2bd25421ec7e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2fe1e8f0-476a-4004-941f-b73531b920d7",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
