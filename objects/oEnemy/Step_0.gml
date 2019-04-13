@@ -14,7 +14,12 @@ if (place_meeting(x+horizSpeed, y, oWall)) {
 	room_goto(Room1)
 }
 x = x + horizSpeed;
-
+if (horizSpeed < 0) {
+		image_xscale = 1
+	} else if (horizSpeed > 0) {
+		image_xscale = -1
+	}
+	
 // Vertical collision ============================================
 if (place_meeting(x, y+vertSpeed, oWall)) {
 	while(!place_meeting(x, y+sign(vertSpeed), oWall)) {
