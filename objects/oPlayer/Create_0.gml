@@ -6,3 +6,4 @@ flyingSpeed = 2;
 flying = true;
 globalvar jetpacks;
 jetpacks = 0;
+jetpackflying = 0

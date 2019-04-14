@@ -25,13 +25,14 @@ if (place_meeting(x+horizSpeed, y, oWall)) {
 x = x + horizSpeed;
 
 // Vertical collision ============================================
-if (jetpacks > 0) {
-	if (keyboard_check_pressed(vk_space)) {
-		flying = true;
-		vertSpeed = (-6 + vertSpeed*-3)
-		jetpacks = jetpacks - 1
-	}
-}
+////if (jetpacks > 0) {
+//	if (keyboard_check_pressed(vk_space)) {
+//		flying = true;
+//		vertSpeed = (-6)
+//		jetpacks = jetpacks - 1
+//		sprite_index = sPlayerJetpack
+//	}
+//}
 
 if (place_meeting(x, y+vertSpeed, oWall)) {
 	while(!place_meeting(x, y+sign(vertSpeed), oWall)) {
@@ -39,6 +40,7 @@ if (place_meeting(x, y+vertSpeed, oWall)) {
 	}
 	vertSpeed = 0;
 	flying = false;
+	jetpackflying = false
 } else {
 	flying = true;
 }
@@ -66,6 +68,17 @@ if (vertSpeed < 0) {
 	} else if (horizSpeed > 0) {
 		image_xscale = 1
 		sprite_index = sSideFall
+	}
+}
+if (jetpackflying = true){
+	sprite_index = sPlayerJetpack
+}
+if (jetpacks > 0) {
+	if (keyboard_check_pressed(vk_space)) {
+		flying = true;
+		jetpackflying = true
+		vertSpeed = (-6)
+		jetpacks = jetpacks - 1
 	}
 }
 
