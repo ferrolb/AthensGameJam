@@ -143,6 +143,25 @@
             }
         },
         {
+            "Key": "62cc6920-ec64-4827-a21d-cb57a4855887",
+            "Value": {
+                "id": "b605116b-5596-48e2-8e98-a0e654983f56",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oGameWinText\/oGameWinText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63722f4d-63d4-4338-86dc-8d0efce5dd75",
             "Value": {
                 "id": "64a9dc05-9e4c-4b41-95a6-962521bab51b",
@@ -364,6 +383,25 @@
                 "id": "30cefc01-6c6f-4fe7-ba2f-3c806e293e91",
                 "resourcePath": "sprites\/sSideFall\/sSideFall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1112285-064c-42ce-b334-c178e5fc861e",
+            "Value": {
+                "id": "318b01ea-6343-4cf6-b6d0-7070dab73432",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/RoomWin\/RoomWin.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
