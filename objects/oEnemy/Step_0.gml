@@ -11,7 +11,8 @@ if (place_meeting(x+horizSpeed, y, oWall)) {
 		while(!place_meeting(x+sign(horizSpeed), y, oPlayer)) {
 		x = x + sign(horizSpeed);
 	}
-	room_goto(Room1)
+	//room_goto(Room1)
+	room_restart()
 }
 x = x + horizSpeed;
 if (horizSpeed < 0) {
